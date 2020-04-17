@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TrainApp.Settings"
+             Title="Settings" x:Name="Title"
+             xmlns:syncfusion="clr-namespace:Syncfusion.SfPdfViewer.XForms;assembly=Syncfusion.SfPdfViewer.XForms">
+
+    <ScrollView>
+        <StackLayout>
+            <StackLayout>
+                <Label Text="Train Coupon" HorizontalOptions="Center" FontSize="25" TextColor="#48A0FF" FontAttributes="Bold"/>
+            </StackLayout>
+
+            <Grid>
+                <StackLayout>
+                    <Label Text="Coupon Number" HorizontalOptions="Start"/>
+                    <Label x:Name="coupon" Text="" HorizontalOptions="Start" FontSize="25" FontAttributes="Bold"/>
+                </StackLayout>
+
+                <StackLayout>
+                    <Label Text="Trips Left" HorizontalOptions="EndAndExpand"/>
+                    <Label x:Name="trips" Text="" HorizontalOptions="EndAndExpand" FontSize="25" FontAttributes="Bold"/>
+                </StackLayout>
+            </Grid>
+
+            <StackLayout>
+                <Label Text=""/>
+            </StackLayout>
+
+            <Button HorizontalOptions="Center" Text="Add Coupon" Clicked="popup"/>
+            
+            <StackLayout>
+                <Entry x:Name="underline" FontSize="1" IsReadOnly="True"/>
+            </StackLayout>
+
+            <StackLayout>
+                <Label Text="Payment Methods" HorizontalOptions="Center" FontSize="25" TextColor="#48A0FF" FontAttributes="Bold"/>
+            </StackLayout>
+
+            <StackLayout>
+                <Label Text="Cards" FontSize="25" TextColor="#48A0FF" HorizontalOptions="Center"/>
+            </StackLayout>
+
+            <Grid>
+                <StackLayout>
+                    <Label Text="Card Number" HorizontalOptions="Start"/>
+                    <Label Text="•••• 9995" HorizontalOptions="Start" FontSize="25" FontAttributes="Bold"/>
+                </StackLayout>
+
+                <StackLayout>
+                    <Label Text="Expiry Date" HorizontalOptions="EndAndExpand"/>
+                    <Label Text="Jun/24" HorizontalOptions="EndAndExpand" FontSize="25" FontAttributes="Bold"/>
+                </StackLayout>
+            </Grid>
+
+            <StackLayout>
+                <Label Text=""/>
+            </StackLayout>
+
+            <Button HorizontalOptions="Center" Text="Add Card" Clicked="pop"/>
+
+            <StackLayout>
+                <Entry x:Name="unde" FontSize="1" IsReadOnly="True"/>
+            </StackLayout>
+
+            <StackLayout>
+                <Label Text="PDF" HorizontalOptions="Center" FontSize="25" TextColor="#48A0FF" FontAttributes="Bold"/>
+            </StackLayout>
+
+            <!--<StackLayout>
+                <WebView x:Name="Browser"   
+                 Source ="http://www.pdfpdf.com/samples.html"  
+                 Navigating="webOnNavigating"  
+                 HorizontalOptions="FillAndExpand"  
+                 VerticalOptions="FillAndExpand"/>
+            </StackLayout>-->
+
+            <StackLayout>
+                <WebView x:Name="web" HeightRequest="700" WidthRequest="300"/>
+            </StackLayout>
+            
+
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

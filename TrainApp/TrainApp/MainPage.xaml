@@ -1,0 +1,117 @@
+﻿<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:TrainApp"
+             x:Class="TrainApp.MainPage"
+             BackgroundColor="#48A0FF">
+
+    <ScrollView>
+        <StackLayout>
+            <Grid HorizontalOptions="End" BackgroundColor="White">
+                <Label Text="TRAIN APP" 
+         TextColor="#48A0FF" FontSize="40"/>
+
+                <Button Clicked="Button_Clicked"
+            Text="Sign in/ Sign up"
+            BackgroundColor="White"
+            TextColor="#48A0FF"
+            FontSize="13"
+            Margin="8"
+            HorizontalOptions="End"/>
+            </Grid>
+
+            <Grid HorizontalOptions="Start">
+                <Image Source="popular.png"/>
+            </Grid>
+
+            <Grid HorizontalOptions="End" BackgroundColor="#82CDFF">
+                <Label Text="Durban to Stanger - R20" TextColor="White" HorizontalOptions="Start" FontSize="20"/>
+                <Label Text="&#10;06:30 || 08:00 || 10:00 || 13:00" FontFamily="Calibri" HorizontalOptions="Start" TextColor="Red" FontSize="20" />
+                <Button Text="Buy Ticket"
+                VerticalOptions="CenterAndExpand"
+                HorizontalOptions="End" 
+                    Clicked="Button_Clicked"/>
+            </Grid>
+
+            <Grid HorizontalOptions="End" BackgroundColor="#82CDFF">
+                <Label Text="Durban to Newcastle - R40" TextColor="White" HorizontalOptions="Start"  FontSize="20"/>
+                <Label Text="&#10;06:30 || 08:00 || 10:00 || 13:00" FontFamily="Calibri" HorizontalOptions="Start" TextColor="Red" FontSize="20" />
+                <Button Text="Buy Ticket"
+                VerticalOptions="CenterAndExpand"
+                HorizontalOptions="End" 
+                   Clicked="Button_Clicked" />
+            </Grid>
+
+            <Grid HorizontalOptions="End" BackgroundColor="#82CDFF">
+                <Label Text="Durban to Pine Town - R30" TextColor="White" HorizontalOptions="Start"  FontSize="20"/>
+                <Label Text="&#10;06:30 || 08:00 || 10:00 || 13:00" FontFamily="Calibri" HorizontalOptions="Start" TextColor="Red" FontSize="20" />
+                <Button Text="Buy Ticket"
+                VerticalOptions="CenterAndExpand"
+                HorizontalOptions="End" 
+                    Clicked="Button_Clicked"/>
+            </Grid>
+            <Grid HorizontalOptions="End" BackgroundColor="#82CDFF">
+                <Label Text="Durban to Umlazi - R7" TextColor="White" HorizontalOptions="Start"  FontSize="20"/>
+                <Label Text="&#10;06:30 || 08:00 || 10:00 || 13:00" FontFamily="Calibri" HorizontalOptions="Start" TextColor="Red" FontSize="20" />
+                <Button Text="Buy Ticket"
+                VerticalOptions="CenterAndExpand"
+                HorizontalOptions="End" 
+                    Clicked="Button_Clicked"/>
+            </Grid>
+
+            <Grid HorizontalOptions="End" BackgroundColor="#82CDFF">
+                <Label Text="Durban to KwaMashu - R7" TextColor="White" HorizontalOptions="Start"  FontSize="20"/>
+                <Label Text="&#10;06:30 || 08:00 || 10:00 || 13:00" FontFamily="Calibri" HorizontalOptions="Start" TextColor="Red" FontSize="20" />
+                <Button Text="Buy Ticket"
+                VerticalOptions="CenterAndExpand"
+                HorizontalOptions="End" 
+                    Clicked="Button_Clicked"/>
+            </Grid>
+
+            <Grid HorizontalOptions="End" BackgroundColor="#82CDFF">
+                <Label Text="Durban to Ballito - R10" TextColor="White" HorizontalOptions="Start"  FontSize="20"/>
+                <Label Text="&#10;06:30 || 08:00 || 10:00 || 13:00" FontFamily="Calibri" HorizontalOptions="Start" TextColor="Red" FontSize="20" />
+                <Button Text="Buy Ticket"
+                VerticalOptions="CenterAndExpand"
+                HorizontalOptions="End" 
+                    Clicked="Button_Clicked"/>
+            </Grid>
+
+            <Grid HorizontalOptions="End" BackgroundColor="#82CDFF">
+                <Label Text="Durban to Ushaka - R30" TextColor="White" HorizontalOptions="Start"  FontSize="20"/>
+                <Label Text="&#10;06:30 || 08:00 || 10:00 || 13:00" FontFamily="Calibri" HorizontalOptions="Start" TextColor="Red" FontSize="20" />
+                <Button Text="Buy Ticket"
+                VerticalOptions="CenterAndExpand"
+                HorizontalOptions="End" 
+                    Clicked="Button_Clicked"/>
+            </Grid>
+
+            <Grid HorizontalOptions="End" BackgroundColor="#82CDFF">
+                <Label Text="Durban to Spingo - R10" TextColor="White" HorizontalOptions="Start"  FontSize="20"/>
+                <Label Text="&#10;06:30 || 08:00 || 10:00 || 13:00" FontFamily="Calibri" HorizontalOptions="Start" TextColor="Red" FontSize="20" />
+                <Button Text="Buy Ticket"
+                VerticalOptions="CenterAndExpand"
+                HorizontalOptions="End" 
+                    Clicked="Button_Clicked"/>
+            </Grid>
+
+            <Grid HorizontalOptions="End" BackgroundColor="#82CDFF">
+                <Label Text="Durban to Greytown - R15" TextColor="White" HorizontalOptions="Start"  FontSize="20"/>
+                <Label Text="&#10;06:30 || 08:00 || 10:00 || 13:00" FontFamily="Calibri" HorizontalOptions="Start" TextColor="Red" FontSize="20" />
+                <Button Text="Buy Ticket"
+                VerticalOptions="CenterAndExpand"
+                HorizontalOptions="End" 
+                    Clicked="Button_Clicked"/>
+            </Grid>
+
+            <Grid HorizontalOptions="End" BackgroundColor="#82CDFF">
+                <Label Text="Durban to Gauteng - R100" TextColor="White" HorizontalOptions="Start"  FontSize="20"/>
+                <Label Text="&#10;06:30 || 08:00 || 10:00 || 13:00" FontFamily="Calibri" HorizontalOptions="Start" TextColor="Red" FontSize="20" />
+                <Button Text="Buy Ticket"
+                VerticalOptions="CenterAndExpand"
+                HorizontalOptions="End" 
+                    Clicked="Button_Clicked"/>
+            </Grid>
+        </StackLayout>
+
+    </ScrollView>
+</ContentPage>

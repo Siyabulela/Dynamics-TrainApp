@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<pages:PopupPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TrainApp.Confirm"
+             xmlns:pages="clr-namespace:Rg.Plugins.Popup.Pages;assembly=Rg.Plugins.Popup">
+
+    <ScrollView>
+        <StackLayout Margin="12"
+                 Padding="24"
+                 Spacing="24"
+                 BackgroundColor="White"
+                 HorizontalOptions="FillAndExpand"
+                 VerticalOptions="Center">
+
+            <StackLayout>
+                <Label Text="CONFIRM YOUR TRIP" HorizontalTextAlignment="Center" FontSize="30" TextDecorations="Underline"/>
+            </StackLayout>
+
+            <Picker x:Name="From"
+                    Title="Departure From"
+                    TitleColor="#48A0FF" FontSize="20">
+                <Picker.ItemsSource>
+                    <x:Array Type="{x:Type x:String}">
+                        <x:String>Durban</x:String>
+                        <x:String>Berea Road</x:String>
+                        <x:String>Umlazi</x:String>
+                        <x:String>Pinetown</x:String>
+                        <x:String>Isipingo</x:String>
+                        <x:String>Umgababa</x:String>
+                        
+                    </x:Array>
+                </Picker.ItemsSource>
+            </Picker>
+
+            <Picker x:Name="To"
+                    Title="Destination"
+                    TitleColor="#48A0FF" FontSize="20">
+                <Picker.ItemsSource>
+                    <x:Array Type="{x:Type x:String}">
+
+
+                        <x:String>Durban</x:String>
+                        <x:String>Berea Road</x:String>
+                        <x:String>Umlazi</x:String>
+                        <x:String>Pinetown</x:String>
+                        <x:String>Isipingo</x:String>
+                        <x:String>Umgababa</x:String>
+                        
+                    </x:Array>
+                </Picker.ItemsSource>
+            </Picker>
+
+            <StackLayout>
+                <Picker x:Name="Trip"
+                    Title="Select Trip"
+                    TitleColor="Red" FontSize="20" BackgroundColor="White">
+                    <Picker.ItemsSource>
+                        <x:Array Type="{x:Type x:String}">
+                            <x:String>Single Trip</x:String>
+                            <x:String>Return Trip</x:String>
+                            <x:String>Weekly Trip</x:String>
+                            <x:String>Monthly Trip</x:String>
+                        </x:Array>
+                    </Picker.ItemsSource>
+                </Picker>
+            </StackLayout>
+
+            <StackLayout>
+                <Grid>
+                    <Button Text="Confirm" HorizontalOptions="End" Clicked="Button_Clicked"/>
+                    <Label x:Name="price" Text="R0" TextColor="Blue" TextDecorations="Underline" FontSize="Large" FontAttributes="Bold" HorizontalOptions="Center"/>
+
+                    <Button Text=" Price" HorizontalOptions="Start" Clicked="Button_Clicked_1"></Button>
+                </Grid>
+            </StackLayout>
+            
+
+        
+        </StackLayout>
+    </ScrollView>
+
+</pages:PopupPage>

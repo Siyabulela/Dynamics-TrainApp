@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<pages:PopupPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"            
+             x:Class="TrainApp.PopupView"
+             xmlns:pages="clr-namespace:Rg.Plugins.Popup.Pages;assembly=Rg.Plugins.Popup">
+    <ScrollView>
+    <StackLayout Margin="12"
+                 Padding="24"
+                 Spacing="24"
+                 BackgroundColor="White"
+                 HorizontalOptions="FillAndExpand"
+                 VerticalOptions="Center">
+        <StackLayout>
+            <Label Text="SIGN IN" HorizontalTextAlignment="Center" FontSize="30" TextDecorations="Underline" x:Name="sign"/>
+        </StackLayout>
+        <StackLayout>
+            <Label Text="Username"/>
+            <Entry x:Name="user" FontSize="30" 
+                   Text=""/>
+        </StackLayout>
+        <StackLayout>
+            <Label Text="Password"/>
+            <Entry x:Name="pass" FontSize="30" 
+                   IsPassword="True"
+                   Text=""/>
+        </StackLayout>
+        <Button BackgroundColor="DodgerBlue" 
+                FontSize="30"
+                Text="Login"
+                TextColor="White"
+                Clicked="BtLogin"/>
+        <Grid>
+            <Button BackgroundColor="White" 
+                FontSize="15"
+                Text="Sign Up"
+                TextColor="Blue"
+                Clicked="btSignup"
+                HorizontalOptions="End"/>
+
+        <Button BackgroundColor="White" 
+                FontSize="15"
+                Text="Forgot Password?"
+                TextColor="Blue"
+                HorizontalOptions="Start"
+                Clicked="btForget"/>
+        </Grid>
+    </StackLayout>
+
+    </ScrollView>
+</pages:PopupPage>

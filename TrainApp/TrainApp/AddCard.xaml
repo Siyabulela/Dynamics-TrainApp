@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<pages:PopupPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TrainApp.AddCard"
+             xmlns:pages="clr-namespace:Rg.Plugins.Popup.Pages;assembly=Rg.Plugins.Popup">
+    <ScrollView>
+
+        <StackLayout Margin="12"
+                 Padding="24"
+                 Spacing="24"
+                 BackgroundColor="White"
+                 HorizontalOptions="FillAndExpand"
+                 VerticalOptions="Center">
+        
+            <StackLayout>
+                <Label Text="Add Payment Method" HorizontalOptions="Center" FontSize="25" TextColor="#48A0FF" FontAttributes="Bold"/>
+            </StackLayout>
+
+            <StackLayout>
+                <Label Text="Card Number" HorizontalOptions="End"/>
+                <Entry x:Name="CN" FontSize="30" Placeholder="0000 0000 0000 0000"/>
+            </StackLayout>
+
+            <StackLayout>
+                <Label Text="Expiry Date (MM/YY)" HorizontalOptions="End"/>
+                <Entry x:Name="ED" FontSize="30" Placeholder="04/22"/>
+            </StackLayout>
+
+            <StackLayout>
+                <Label Text="CVV" HorizontalOptions="End"/>
+                <Entry x:Name="CVV" FontSize="30" Placeholder="450"/>
+            </StackLayout>
+
+            <Grid>
+                <Button Text="DONE" HorizontalOptions="Start" Clicked="Button_Clicked"/>
+                <Button Text="CLOSE" HorizontalOptions="End" Clicked="Cancel_Clicked"/>
+            </Grid>
+
+        </StackLayout>
+    </ScrollView>
+</pages:PopupPage>

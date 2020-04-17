@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TrainApp.AboutUs"
+             Title="About Us">
+
+    <ScrollView>
+        <StackLayout>
+            
+            <StackLayout>
+                <Label Text="ABOUT US" HorizontalOptions="Center" FontSize="25" TextColor="#48A0FF" FontAttributes="Bold"/>
+            </StackLayout>
+
+            <StackLayout HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+                <Label FontSize="20" Text=" TrainApp is an application that was developed by a group of five Software Development students who wanted to make the lives of everyday South Africans easier. By creating this application, they helped people who use trains as their daily transport save a lot of time and access to information about the times the trains depart from the station which makes it convenient for everyone." TextColor="Black"/>
+            </StackLayout>
+
+            <StackLayout>
+                <Entry x:Name="underline" FontSize="1" IsReadOnly="True"/>
+            </StackLayout>
+
+            <StackLayout>
+                <Label Text="MISSION" HorizontalOptions="Center" FontSize="25" TextColor="#48A0FF" FontAttributes="Bold"/>
+            </StackLayout>
+
+            <StackLayout HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+                <Label FontSize="20" Text=" To become the official application used by train stations/passengers nationwide." TextColor="Black"/>
+            </StackLayout>
+
+            <StackLayout>
+                <Entry x:Name="underline1" FontSize="1" IsReadOnly="True"/>
+            </StackLayout>
+
+            <StackLayout>
+                <Label Text="VISION" HorizontalOptions="Center" FontSize="25" TextColor="#48A0FF" FontAttributes="Bold"/>
+            </StackLayout>
+
+            <StackLayout HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+                <Label FontSize="20" Text=" To be the leader in passenger transport solutions." TextColor="Black"/>
+            </StackLayout>
+
+            <StackLayout>
+                <Entry x:Name="underline2" FontSize="1" IsReadOnly="True"/>
+            </StackLayout>
+
+            <StackLayout>
+                <Label Text="VALUES" HorizontalOptions="Center" FontSize="25" TextColor="#48A0FF" FontAttributes="Bold"/>
+            </StackLayout>
+
+            <StackLayout HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+                <Label FontSize="20" Text=" The values that guide TrainApp, underpinning the performance ethos of the organization have been derived from the outcome of workshops carried out across the Group. The premise of the derived values is to deliver service excellence, productive staff and business growth." TextColor="Black"/>
+            </StackLayout>
+
+            <StackLayout>
+                <Entry x:Name="underline3" FontSize="1" IsReadOnly="True"/>
+            </StackLayout>
+
+            <StackLayout>
+                <Label Text="CONTACT US" HorizontalOptions="Center" FontSize="25" TextColor="#48A0FF" FontAttributes="Bold"/>
+            </StackLayout>
+
+            <StackLayout HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+                <Label FontSize="20" Text="Phone: 079 421 7438" TextColor="Black"/>
+                <Label FontSize="20" Text="Email: pros.dynamics@gmal.com" TextColor="Black"/>
+                <Label FontSize="20" Text="Facebook: Dynamics" TextColor="Black"/>
+
+            </StackLayout>
+
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

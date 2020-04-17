@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<pages:PopupPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TrainApp.SignupView"
+             xmlns:pages="clr-namespace:Rg.Plugins.Popup.Pages;assembly=Rg.Plugins.Popup">
+<ScrollView>
+    <StackLayout Margin="12"
+                 Padding="24"
+                 Spacing="24"
+                 BackgroundColor="White"
+                 HorizontalOptions="FillAndExpand"
+                 VerticalOptions="Center">
+
+            <StackLayout>
+                <Label x:Name="lab" Text="SIGN UP" HorizontalTextAlignment="Center" FontSize="25" TextDecorations="Underline"/>
+            </StackLayout>
+
+            <StackLayout>
+                <Label Text="Last Name"/>
+                <Entry x:Name="lastName" FontSize="30" 
+                   Text=""/>
+            </StackLayout>
+
+            <StackLayout>
+                <Label Text="First Name(s)"/>
+                <Entry x:Name="firstName" FontSize="30" 
+                   Text=""/>
+            </StackLayout>
+
+            <StackLayout>
+                <Label Text="Phone Number"/>
+                <Entry x:Name="phoneNo" FontSize="30" 
+                   Text=""/>
+            </StackLayout>
+        
+            <StackLayout>
+                <Label Text="Email Address"/>
+                <Entry x:Name="email" FontSize="30" 
+                   Text=""/>
+            </StackLayout>
+
+            <StackLayout>
+                <Label Text="Username"/>
+                <Entry x:Name="username" FontSize="30" 
+                   Text=""/>
+            </StackLayout>
+
+            <StackLayout>
+                <Label Text="Password"/>
+                <Entry x:Name="password" FontSize="30" 
+                   IsPassword="True"
+                   Text=""/>
+            </StackLayout>
+
+            <StackLayout>
+                <Label Text="What primary school did you attend?"/>
+                <Entry x:Name="security" FontSize="30" 
+                   Text=""/>
+            </StackLayout>
+
+            <Button BackgroundColor="DodgerBlue" 
+                FontSize="30"
+                Text="Sign Up"
+                TextColor="White"
+                Clicked="btSignup"/>
+            <Grid>
+                <Button BackgroundColor="White" 
+                FontSize="15"
+                Text="Login"
+                TextColor="Blue"
+                Clicked="btLogin"
+                HorizontalOptions="End"/>
+            </Grid>
+        </StackLayout>
+</ScrollView>
+</pages:PopupPage>

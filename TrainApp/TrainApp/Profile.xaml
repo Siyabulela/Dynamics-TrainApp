@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TrainApp.Profile"
+             Title="Profile">
+
+    <ScrollView>
+        <StackLayout>
+            <StackLayout>
+                <Image Source="profilepic.png" HorizontalOptions="Center" VerticalOptions="Center" WidthRequest="140" HeightRequest="140"/>
+            </StackLayout>
+
+            <StackLayout>
+                <Entry x:Name="underline" FontSize="1" IsReadOnly="True"/>
+            </StackLayout>
+            
+            <StackLayout>
+                <Label Text="First Name" HorizontalOptions="End"/>
+                <Entry x:Name="first" FontSize="30" 
+                   Text="" IsReadOnly="True"/>
+            </StackLayout>
+
+            <StackLayout>
+                <Label Text="Last Name" HorizontalOptions="End"/>
+                <Entry x:Name="last" FontSize="30" 
+                   Text="" IsReadOnly="True"/>
+            </StackLayout>
+
+            <StackLayout>
+                <Label Text="Phone Number" HorizontalOptions="End"/>
+                <Entry x:Name="phone" FontSize="30" 
+                   Text="" IsReadOnly="True"/>
+            </StackLayout>
+
+            <StackLayout>
+                <Label Text="Email" HorizontalOptions="End"/>
+                <Entry x:Name="email" FontSize="30" 
+                   Text="" IsReadOnly="True"/>
+            </StackLayout>
+
+            <StackLayout>
+                <Label Text="Username" HorizontalOptions="End"/>
+                <Entry x:Name="user" FontSize="30" 
+                   Text="" IsReadOnly="True"/>
+            </StackLayout>
+
+            <StackLayout>
+                <Label Text="Password" HorizontalOptions="End"/>
+                <Entry x:Name="Password" FontSize="30" 
+                   Text="" IsReadOnly="True"
+                       IsPassword="True"/>
+            </StackLayout>
+            
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<pages:PopupPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TrainApp.coupon"
+             xmlns:pages="clr-namespace:Rg.Plugins.Popup.Pages;assembly=Rg.Plugins.Popup">
+    <ScrollView>
+
+        <StackLayout Margin="12"
+                 Padding="24"
+                 Spacing="24"
+                 BackgroundColor="White"
+                 HorizontalOptions="FillAndExpand"
+                 VerticalOptions="Center">
+
+            <StackLayout>
+                <Label Text="Train Coupon" x:Name="cnn" HorizontalOptions="Center" FontSize="25" TextColor="#48A0FF" FontAttributes="Bold"/>
+            </StackLayout>
+
+            <StackLayout>
+                <Label Text="Coupon Number" HorizontalOptions="End"/>
+                <Entry x:Name="CoN" FontSize="30" Placeholder="21620158"/>
+            </StackLayout>
+
+            <Grid>
+                <Button Text="DONE" HorizontalOptions="Start" Clicked="Button_Clicked"/>
+                <Button Text="CLOSE" HorizontalOptions="End" Clicked="Cancel_Clicked"/>
+            </Grid>
+
+        </StackLayout>
+    </ScrollView>
+</pages:PopupPage>

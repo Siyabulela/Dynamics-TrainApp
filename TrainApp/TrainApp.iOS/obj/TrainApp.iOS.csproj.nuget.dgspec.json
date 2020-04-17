@@ -1,0 +1,227 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\siyab\\Source\\Repos\\TrainApp\\TrainApp\\TrainApp.iOS\\TrainApp.iOS.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\siyab\\Source\\Repos\\TrainApp\\TrainApp\\TrainApp.iOS\\TrainApp.iOS.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\siyab\\Source\\Repos\\TrainApp\\TrainApp\\TrainApp.iOS\\TrainApp.iOS.csproj",
+        "projectName": "TrainApp.iOS",
+        "projectPath": "C:\\Users\\siyab\\Source\\Repos\\TrainApp\\TrainApp\\TrainApp.iOS\\TrainApp.iOS.csproj",
+        "packagesPath": "C:\\Users\\siyab\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\siyab\\Source\\Repos\\TrainApp\\TrainApp\\TrainApp.iOS\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\siyab\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "xamarinios10"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "xamarinios10": {
+            "projectReferences": {
+              "C:\\Users\\siyab\\Source\\Repos\\TrainApp\\TrainApp\\TrainApp\\TrainApp.csproj": {
+                "projectPath": "C:\\Users\\siyab\\Source\\Repos\\TrainApp\\TrainApp\\TrainApp\\TrainApp.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "xamarinios10": {
+          "dependencies": {
+            "Microsoft.AppCenter": {
+              "target": "Package",
+              "version": "[2.3.0-preview, )"
+            },
+            "Microsoft.AppCenter.Push": {
+              "target": "Package",
+              "version": "[2.3.0-preview, )"
+            },
+            "Microsoft.Azure.Mobile.Client.SQLiteStore": {
+              "target": "Package",
+              "version": "[4.1.2-prerelease.481290, )"
+            },
+            "Microsoft.Net.Http": {
+              "target": "Package",
+              "version": "[2.2.29, )"
+            },
+            "MySql.Data": {
+              "target": "Package",
+              "version": "[8.0.17, )"
+            },
+            "NETStandard.Library": {
+              "target": "Package",
+              "version": "[2.0.3, )"
+            },
+            "NUnit": {
+              "target": "Package",
+              "version": "[3.12.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.2, )"
+            },
+            "NuGet.Build": {
+              "target": "Package",
+              "version": "[2.12.1, )"
+            },
+            "Rg.Plugins.Popup": {
+              "target": "Package",
+              "version": "[1.1.5.188, )"
+            },
+            "Syncfusion.Xamarin.SfPdfViewer": {
+              "target": "Package",
+              "version": "[17.2.0.36, )"
+            },
+            "System.Buffers": {
+              "target": "Package",
+              "version": "[4.5.0, )"
+            },
+            "Xam.Plugin.Connectivity": {
+              "target": "Package",
+              "version": "[4.0.0.190-beta, )"
+            },
+            "Xamarin.Forms": {
+              "target": "Package",
+              "version": "[4.2.0.618605-pre2, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    },
+    "C:\\Users\\siyab\\Source\\Repos\\TrainApp\\TrainApp\\TrainApp\\TrainApp.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\siyab\\Source\\Repos\\TrainApp\\TrainApp\\TrainApp\\TrainApp.csproj",
+        "projectName": "TrainApp",
+        "projectPath": "C:\\Users\\siyab\\Source\\Repos\\TrainApp\\TrainApp\\TrainApp\\TrainApp.csproj",
+        "packagesPath": "C:\\Users\\siyab\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\siyab\\Source\\Repos\\TrainApp\\TrainApp\\TrainApp\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\siyab\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "Microsoft.AppCenter": {
+              "target": "Package",
+              "version": "[2.3.0-preview, )"
+            },
+            "Microsoft.AppCenter.Push": {
+              "target": "Package",
+              "version": "[2.3.0-preview, )"
+            },
+            "Microsoft.Azure.Mobile.Client.SQLiteStore": {
+              "target": "Package",
+              "version": "[4.1.2-prerelease.481290, )"
+            },
+            "MySql.Data": {
+              "target": "Package",
+              "version": "[8.0.17, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "NUnit": {
+              "target": "Package",
+              "version": "[3.12.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.2, )"
+            },
+            "NuGet.Build": {
+              "target": "Package",
+              "version": "[2.12.1, )"
+            },
+            "RestSharp": {
+              "target": "Package",
+              "version": "[106.6.10, )"
+            },
+            "Rg.Plugins.Popup": {
+              "target": "Package",
+              "version": "[1.1.5.188, )"
+            },
+            "Syncfusion.Xamarin.SfPdfViewer": {
+              "target": "Package",
+              "version": "[17.2.0.36, )"
+            },
+            "System.Buffers": {
+              "target": "Package",
+              "version": "[4.5.0, )"
+            },
+            "Xam.Plugin.Connectivity": {
+              "target": "Package",
+              "version": "[4.0.0.190-beta, )"
+            },
+            "Xamarin.Forms": {
+              "target": "Package",
+              "version": "[4.2.0.618605-pre2, )"
+            },
+            "sqlite-net-pcl": {
+              "target": "Package",
+              "version": "[1.6.258-beta, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}

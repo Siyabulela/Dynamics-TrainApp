@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<pages:PopupPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TrainApp.ForgotPass"
+             xmlns:pages="clr-namespace:Rg.Plugins.Popup.Pages;assembly=Rg.Plugins.Popup">
+    <ScrollView>
+        <StackLayout
+                Margin="12"
+                 Padding="24"
+                 Spacing="24"
+                 BackgroundColor="White"
+                 HorizontalOptions="FillAndExpand"
+                 VerticalOptions="Center">
+
+            <StackLayout>
+                <Label Text="RESET YOUR PASSWORD" HorizontalTextAlignment="Center" FontSize="20" TextDecorations="Underline"/>
+            </StackLayout>
+
+            <StackLayout BackgroundColor="#F2F7FB">
+                <Label Text="Please provide the email address that you used when you signed up for your Train app account. We will send you an email that will allow you to reset your password." 
+                       HorizontalOptions="Center" TextColor="Black" FontSize="15" />
+            </StackLayout>
+
+            <StackLayout>
+                <Label Text="Email Address"/>
+                <Entry x:Name="email" FontSize="30" 
+                   Text=""/>
+            </StackLayout>
+
+            <StackLayout>
+                <Label Text="What primary school did you attend?"/>
+                <Entry x:Name="sec" FontSize="30" 
+                   Text=""/>
+            </StackLayout>
+
+            <Button BackgroundColor="DodgerBlue" 
+                FontSize="15"
+                Text="Send verification email"
+                TextColor="White"
+                Clicked="send"/>
+
+        </StackLayout>
+    </ScrollView>
+</pages:PopupPage>
